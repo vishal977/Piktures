@@ -48,7 +48,7 @@ export default function Carousel( {images} ) {
                     <Spinners.PropagateLoader loading = { imageLoading } color = '#c3073f' css = "z-index: 10; position: absolute; top: 50%; left: 50%;"/>
                         { index === currentImageIndex && 
                         (   
-                            <img src = { slide.url } alt = "image" className = { imageLoading ? 'carousel-image-hidden' : 'carousel-image' } onLoad = { imageLoaded } />                   
+                            <img src = { slide.url } alt = "carousel image" className = { imageLoading ? 'carousel-image-hidden' : 'carousel-image' } onLoad = { imageLoaded } />                   
                         )}
                         
                     </div>
