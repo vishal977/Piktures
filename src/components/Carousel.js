@@ -55,7 +55,7 @@ export default function Carousel( {images} ) {
                     
                 )
             }) } 
-            <CarouselMenu noOfImages = { length } currentImage = { currentImageIndex }/>
+            <CarouselMenu noOfImages = { length } currentImage = { currentImageIndex+1 }/>
         </section>
     )
 }
